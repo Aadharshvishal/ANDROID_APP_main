@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Proxenix",
+    "slug": "proxenix",
+    "version": "1.0.0",
+    "sdkVersion": "52.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0E1A"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.oncolens.ai",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to capture oral images for OSCC screening.",
+        "NSPhotoLibraryUsageDescription": "This app accesses your photo library to select oral images for OSCC screening."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0E1A"
+      },
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"],
+      "package": "com.oncolens.ai"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "This app uses the camera to capture oral images for OSCC screening."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "This app accesses your photos to select oral images for OSCC screening."
+        }
+      ]
+    ]
+  }
+}

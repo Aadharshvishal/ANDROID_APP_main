@@ -1,0 +1,18 @@
+✅ OSCC Model loaded successfully (Native Keras 3)!
+
+>> Starting OSCC Detection API on http://0.0.0.0:5000
+
+ * Serving Flask app 'app'
+ * Debug mode: off
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 3s/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m3s[0m 3s/step
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 113ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 139ms/step
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 85ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 114ms/step
+
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 112ms/step
+[1m1/1[0m [32m====================[0m[37m[0m [1m0s[0m 160ms/step
